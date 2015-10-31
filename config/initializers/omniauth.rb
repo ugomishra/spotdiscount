@@ -7,4 +7,4 @@ Rails.application.config.middleware.use OmniAuth::Builder do
     
     :scope => ShopifyApp.configuration.scope
 end
-redirect_uri = "https://spotdiscount.herokuapp.com/auth/shopify/callback"
+redirect_uri = "http://spotdiscount.herokuapp.com/auth/shopify/callback"
