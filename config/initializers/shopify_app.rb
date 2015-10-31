@@ -3,5 +3,5 @@ ShopifyApp.configure do |config|
   config.secret = "dc059acae8beef7d54c509dd74bd17a4"
   config.redirect_uri = "https://spotdiscount.herokuapp.com/auth/shopify/callback"
   config.scope = "read_orders, read_products"
-  config.embedded_app = true
+  config.embedded_app = false
 end
